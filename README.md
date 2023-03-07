@@ -4,6 +4,9 @@
 
 The Cartographer CLI offers a convenient way to manage a [Cartographer](https://cartographer.sh) installation and related workflows. It's built on top of the [Apps Plugin for the Tanzu CLI](https://github.com/vmware-tanzu/apps-cli-plugin), which provides the ability to create, view, update, and delete application `Workloads` as well as list and view `ClusterSupplyChains`.
 
+> **Warning**
+> This project is currently a proof of concept.
+
 ## 🚀&nbsp; Getting Started
 
 ### Prerequisites
@@ -41,7 +44,7 @@ Get the help information for the `carto apps` subcommand.
 
 ## 📙&nbsp; Documentation
 
-Documentation, tutorials and examples for this package are available in the [docs](docs) folder.
+Documentation, tutorials and examples for this project are available in the [docs](docs) folder.
 For documentation specific to the Apps Plugin for the Tanzu CLI, check out [github.com/vmware-tanzu/apps-cli-plugin](https://github.com/vmware-tanzu/apps-cli-plugin).
 
 ## 🛡️&nbsp; Security
