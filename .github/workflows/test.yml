@@ -21,7 +21,7 @@ jobs:
         uses: aquasecurity/trivy-action@master
         with:
           scan-type: 'fs'
-          scan-ref: 'convention-server'
+          scan-ref: '.'
           format: 'sarif'
           output: 'trivy-results-source-code.sarif'
 
