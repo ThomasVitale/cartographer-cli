@@ -28,10 +28,11 @@ The Cartographer CLI offers a convenient way to manage a [Cartographer](https://
 
 ### Installation
 
-Check out this code repository, then build the Cartographer CLI:
+[Download](https://github.com/ThomasVitale/cartographer-cli/releases) the binary for your OS from the latest GitHub release, move it next to your other executables and make it executable.
 
   ```shell
-  go build -o carto
+  mv ~/Downloads/carto-darwin-arm64 /usr/local/bin/carto
+  chmod +x /usr/local/bin/carto
   ```
 
 ### Usage
@@ -39,7 +40,7 @@ Check out this code repository, then build the Cartographer CLI:
 Get the help information for the `carto apps` subcommand.
 
   ```shell
-  ./carto apps
+  carto apps
   ```
 
 ## 📙&nbsp; Documentation
