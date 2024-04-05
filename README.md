@@ -2,6 +2,9 @@
 
 [![The Apache 2.0 license badge](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+> **Warning**
+> The Cartographer upstream project is not actively developed anymore. As a consequence, this repository has been archived.
+
 The Cartographer CLI offers a convenient way to manage a [Cartographer](https://cartographer.sh) installation and related workflows. It's built on top of the [Apps Plugin for the Tanzu CLI](https://github.com/vmware-tanzu/apps-cli-plugin), which provides the ability to create, view, update, and delete application `Workloads` as well as list and view `ClusterSupplyChains`.
 
 > **Warning**
